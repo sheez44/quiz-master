@@ -4,27 +4,33 @@
     <meta charset="UTF-8">
     <title>this is a test</title>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <h1>My first quiz</h1>
+<h1>My first quiz</h1>
 
-    <div class="container quiz">
-        <div class="start">
-            <h2> Welcome to my quiz! </h2>
-            <h3>Click on start to begin</h3>
-            <button id="start">Start quiz!</button>
-        </div>
+<div class="container quiz">
+    <div class="start">
+        <h2> Welcome to my quiz! </h2>
+        <h3>Click on start to begin</h3>
 
+        <form class="login">
+            <div class="input-group">
+                <label for="name">Name</label>
+                <input id="name" type="text"/>
+                <input class="btn btn-danger" type="submit"/>
+            </div>
+
+
+        </form>
+        <button id="start" class="hidden">Start quiz!</button>
     </div>
 
-    <div class="end hidden">
-        <h1>This is the end of the quiz</h1>
-        <button id="restart">restart</button>
-    </div>
+</div>
 
-    <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="test.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="test.js"></script>
 </body>
 </html>

@@ -24,5 +24,33 @@ body {
 }
 
 input {
+    display: inline-block;
+}
+
+.login {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+}
+
+.input-group {
     display: block;
+    overflow: hidden;
+    color: black;
+}
+
+.input-group input {
+    width: 40%;
+}
+
+.input-group label {
+    text-align: left;
+    width: 25%;
+    color: #fff;
+}
+
+.input-group input[type="submit"] {
+    width: 10%;
+    float: left;
 }
